@@ -1,0 +1,118 @@
+.app-header-menu .menu-item .menu-link .menu-title a
+{
+	color:#808290;
+}
+.app-header-menu .menu-item .menu-link .menu-title a:hover
+{
+	color:var(--bs-scrollbar-color) transparent;
+}
+.app-header-menu .menu .menu-item .menu-link .menu-title {
+	color:#808290;
+	font-weight: 600;
+    font-size: 1.1rem;
+}
+.app-header-menu .menu .menu-item .menu-link .menu-title:hover {
+	color:var(--bs-scrollbar-color) transparent !important;
+}
+
+.pag-link{
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    border-radius: 0.21rem;
+    margin: 5px;
+    background: var(--primary);
+    
+    color: #000;
+    transition: .2s;
+}
+.pag-link:hover{
+    -webkit-box-shadow: 0 1px 2px 0 rgb(105 103 206 / 45%), 0 1px 3px 1px rgb(105 103 206 / 30%);
+    box-shadow: 0 1px 2px 0 rgb(105 103 206 / 45%), 0 1px 3px 1px rgb(105 103 206 / 30%);
+    color: #000;
+}
+.pag{
+       /* margin: 6px 0px; */
+	   position: relative;
+	   top: -6px;
+}
+.pag a{
+    color: white;
+    background-color: #1e88e5;
+    height: 30px;
+    margin: 2px;
+    padding: 4px 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px 0px #1e88e5;
+}
+.pag strong{
+    color: #1e88e5;
+    background-color: white;
+    height: 30px;
+    width: 40px;
+    margin: 2px;
+    font-weight: bold;
+    padding: 4px 10px;
+    cursor: not-allowed;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px 0px #1e88e5;
+}
+body.swal2-toast-shown > .swal2-container.swal2-center 
+{
+	top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 53%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.error {
+    color: red; /* Set the color of error messages to red */
+    font-size: 0.875em; /* Adjust the font size if needed */
+}
+
+/* Style for invalid input fields */
+input.error,
+select.error {
+    border-color: red; /* Set the border color of invalid fields to red */
+    background-color: #fdd; /* Optionally, set a light red background */
+}
+.pagination-padding
+{
+	padding-top: 15px;
+    padding-bottom: 8px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box ;
+    cursor: pointer ; 
+    display: block ;
+    height: 43px !important;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* CSS for loader */
+.custom_loader {
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 50px;
+	height: 50px;
+	animation: spin 2s linear infinite;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+  
+  .new-font-icon
+  {
+	font-size: 1.3rem !important;
+  }
